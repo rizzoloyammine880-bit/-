@@ -1,0 +1,14 @@
+{
+  "name": "anti-counterfeit-query",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('No build step required')\"",
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.4"
+  },
+  "devDependencies": {}
+}
