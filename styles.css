@@ -28,19 +28,22 @@ body {
 }
 
 .brand-visual {
+  display: block;
   width: 100%;
   aspect-ratio: 962 / 420;
   overflow: hidden;
-  background: #fff;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  background-color: #fff;
+  background-image: url("/assets/brand-banner.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 }
 
 .brand-visual img {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center top;
+  display: none;
 }
 
 .query-panel {
@@ -230,7 +233,9 @@ body {
 
 @media (max-width: 560px) {
   .brand-visual {
-    aspect-ratio: 962 / 460;
+    aspect-ratio: 962 / 420;
+    background-size: cover;
+    background-position: center top;
   }
 
   .query-panel {
