@@ -30,7 +30,7 @@ body {
 .brand-visual {
   display: block;
   width: 100%;
-  aspect-ratio: 962 / 420;
+  aspect-ratio: 962 / 455;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ body {
   background-image: url("/assets/brand-banner.png");
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: contain;
 }
 
 .brand-visual img {
@@ -233,8 +233,8 @@ body {
 
 @media (max-width: 560px) {
   .brand-visual {
-    aspect-ratio: 962 / 420;
-    background-size: cover;
+    aspect-ratio: 962 / 455;
+    background-size: contain;
     background-position: center top;
   }
 
